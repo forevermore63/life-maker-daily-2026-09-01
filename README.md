@@ -1,2 +1,8 @@
-# life-maker-daily-2026-09-01
-Daily Life Maker fleet: 10 passive peace-first engines + master profit monitor with human-feel campaigns.
+# Life Maker · 1 Sep 2026 fleet
+
+Master profit monitor + 10 peace-first engines.
+
+Open index.html or the Vercel URL after deploy.
+
+These storefronts log to a browser ledger. Connect Stripe to collect live AUD.
+Giving % is a reminder, not an automatic bank transfer.
