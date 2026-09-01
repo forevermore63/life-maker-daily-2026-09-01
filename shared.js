@@ -1,0 +1,1 @@
+const KEY='lifeMakerV1';function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}}function save(d){localStorage.setItem(KEY,JSON.stringify(d))}function bump(app,amount,note){const d=load();d.tx=d.tx||[];d.apps=d.apps||{};d.apps[app]=(d.apps[app]||0)+amount;d.tx.unshift({t:Date.now(),app,amount,note});d.pool=(d.pool||0)+amount;save(d);}
